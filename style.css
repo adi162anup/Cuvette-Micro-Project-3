@@ -1,0 +1,40 @@
+body {
+    background-color: darkgreen;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.userinput {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 4%;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 5vh;
+    color: red;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    gap:2%;
+}
+
+h2 {
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.rules {
+    margin-left: 10%;
+    line-height: 180%;
+    font-size: large;
+}

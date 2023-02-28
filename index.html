@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h1>Countdown Timer</h1>
+    <div class="userinput">
+      <input type="text" id="hours" placeholder="Hours">
+      <input type="text" id="minutes" placeholder="Minutes">
+      <input type="text" id="seconds" placeholder="Seconds">
+    </div>
+    <p id="countdown">00:00:00</p>
+    <div class="buttons">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+    </div>
+    <audio id="sound" src="Ultra Alarm.mp3" preload="auto"></audio>
+    <h2><u>Rules Of Instruction:</u></h2>
+    <ul class="rules">
+      <li>Reset timer only when timer is stopped</li>
+      <li>If user wants to input new timer value while timer is running, follow steps below:-
+        <ol>
+          <li>Click the <b>Stop</b> button</li>
+          <li>Input new timer value</li>
+          <li>Click the <b>Reset</b> button</li>
+          <li>Click the <b>Start</b> button</li>
+        </ol>
+      </li>
+    </ul>
+  </div>
+  <script src="timer.js"></script>
+</body>
+</html>
